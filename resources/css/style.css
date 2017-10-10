@@ -9,8 +9,9 @@ html {
 }
 
 /* BANNER -------------------------------------------------- */
+
 .entirebanner {
-  border: 1px solid red;
+  padding-top: 1rem;
   background-image: url("../../resources/images/banner.png");
   background-size: cover;
   background-position: center;
@@ -19,12 +20,14 @@ html {
   font-family: helvetica;
 }
 
+  /* ~~HEADER ~~ */
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: cadetblue;
-  margin-top: 1rem;
+  
 }
 
 .logo {
@@ -46,7 +49,6 @@ html {
 }
 
 .header li {
-  border: 1px solid red;
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -57,6 +59,8 @@ a {
   text-decoration: none;
 }
 
-/* NAV END */
+/* ~~ Slogan ~~ */
+
+
 
 /* BANNER END -------------------------------------------------- */

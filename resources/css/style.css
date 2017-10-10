@@ -1,3 +1,62 @@
 html {
   font-size: 18px;
 }
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+/* BANNER -------------------------------------------------- */
+.entirebanner {
+  border: 1px solid red;
+  background-image: url("../../resources/images/banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30rem;
+  font-family: helvetica;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  margin-top: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+/* ~~ NAV ~~ */
+
+.header ul {
+  display: flex;
+}
+
+.header li {
+  border: 1px solid red;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* NAV END */
+
+/* BANNER END -------------------------------------------------- */

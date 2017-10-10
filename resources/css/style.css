@@ -5,7 +5,7 @@ html {
 .container {
   max-width: 960px;
   margin: auto;
-  border: 1px solid red;
+
 }
 
 /* BANNER -------------------------------------------------- */
@@ -18,8 +18,9 @@ html {
   background-repeat: no-repeat;
   height: 30rem;
   font-family: helvetica;
-}
+  position: relative;
 
+}
   /* ~~HEADER ~~ */
 
 .header {
@@ -27,7 +28,7 @@ html {
   justify-content: space-between;
   align-items: center;
   background-color: cadetblue;
-  
+
 }
 
 .logo {
@@ -61,6 +62,18 @@ a {
 
 /* ~~ Slogan ~~ */
 
+.slogan {
+  position: absolute;
+  max-width: 25rem;
+  min-width: 25rem;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 10rem 40rem;
 
 
+
+}
 /* BANNER END -------------------------------------------------- */

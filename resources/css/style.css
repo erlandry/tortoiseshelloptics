@@ -154,5 +154,21 @@ a {
 /* PAGE CONTENT END -------------------------------------------------- */
 /* FOOTER -------------------------------------------------- */
 
+.footer {
+  display: flex;
+  margin-top: 5rem;
+  padding: 4rem 0;
+  background-color: azure;
+}
+
+.footer img {
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 3rem;
+}
+
+.footer p {
+  font-family: helvetica;
+}
 
 /* FOOTER END -------------------------------------------------- */
